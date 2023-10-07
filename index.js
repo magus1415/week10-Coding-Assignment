@@ -16,6 +16,8 @@ document.getElementById('add').addEventListener('click', () => {
     actions.appendChild(createDeleteButton(id++));
     // this clears the form field after every entry
     document.getElementById('first-name').value = '';
+    document.getElementById('last-name').value = '';
+    document.getElementById('character-role').value = '';
 })
 
 // id still being incremented after every click and enters into the function
